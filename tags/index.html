@@ -18,6 +18,8 @@
 
 <!-- Website description -->
 
+<meta name="description" content="tags" />
+
 
 <!-- Website keywords -->
 
@@ -35,7 +37,7 @@
 
 
 <!-- Canonical, good for google search engine -->
-<link rel="canonical" href="https://angela81103.github.io/lin/" />
+<link rel="canonical" href="https://angela81103.github.io/lin/tags/" />
 
 <!-- Fancybox styling -->
 
@@ -63,7 +65,7 @@
   window.config = {"leancloud":{"app_id":null,"app_key":null,"server_url":null,"cdn":null},"toc":true,"fancybox":true,"latex":false};
 </script>
   
-  <title>Yun&#39;s Blog</title>
+  <title>Tags · Yun&#39;s Blog</title>
 
 <meta name="generator" content="Hexo 7.3.0"></head>
 
@@ -183,119 +185,22 @@
     <main id="main" class="main">
       <div class="content-wrapper">
         <div id="content" class="content">
-          <section id="posts" class="posts">
-  
-  
-  
-  <article class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      
-      <a class="post-link" href="/lin/%E4%B8%BB%E9%A1%8CEven%20CSS%E4%BF%AE%E6%94%B9/">主題Even CSS修改</a>
-      
-    </h1>
-
-    <div class="post-meta">
-      <span class="post-time">
-        2024-11-19
-      </span>
-      
-      
-      <span class="post-category">
-        
-        <a href="/lin/categories/%E7%B6%B2%E7%AB%99%E6%9E%B6%E8%A8%AD/">網站架設</a>
-        
-      </span>
-      
-      
-    </div>
-  </header>
-
-  
-
-  <div class="post-content">
-    
-    
-    
-
-    
-    <h3 id="修改段距"><a href="#修改段距" class="headerlink" title="修改段距"></a>修改段距</h3><p>在 css_partial_post_content.scss 下的.post-content 內新增以下 CSS</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">p &#123;</span><br><span class="line">margin: 1.2em 0em 1.2em 0em;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h3 id="修改行距"><a href="#修改行距" class="headerlink" title="修改行距"></a>修改行距</h3><p>在 css_variables.scss 下修改這個 CSS</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$global-lineheight: 2 !default;</span><br></pre></td></tr></table></figure>
-
-    
-    
+          <div class="tag-cloud">
+  <div class="tag-cloud-title">
+    2 Tags In Total
   </div>
-
-  
-
-  
-
-</article>
-  
-  <article class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      
-      <a class="post-link" href="/lin/%E6%9E%B6%E7%AB%99Hexo%E4%B8%BB%E9%A1%8CEven%E5%8F%83%E8%80%83%E6%96%87%E7%AB%A0/">架站Hexo x 主題Even 參考文章</a>
-      
-    </h1>
-
-    <div class="post-meta">
-      <span class="post-time">
-        2024-11-17
-      </span>
-      
-      
-      <span class="post-category">
-        
-        <a href="/lin/categories/%E7%B6%B2%E7%AB%99%E6%9E%B6%E8%A8%AD/">網站架設</a>
-        
-      </span>
-      
-      
-    </div>
-  </header>
-
-  
-
-  <div class="post-content">
-    
-    
-    
-    
-    
-
-    
-    <p>本篇記錄了在 Github 上架設 Hexo 網站，使用 Theme even 從 0 到 1 把網站架出來，過程中有參考過的文章。</p>
-<p>
-所有想修改的靠著這些文章都讓我這個程式小白順利達成，只有 github deploy 無論如何都無法從終端機直接 deploy，最後只能下載 Github Desktop 然後 generate file 後自己推。
-    <div class="read-more">
-      <a href="/lin/%E6%9E%B6%E7%AB%99Hexo%E4%B8%BB%E9%A1%8CEven%E5%8F%83%E8%80%83%E6%96%87%E7%AB%A0/" class="read-more-link">Read more..</a>
-    </div>
-    
-    
+  <div class="tag-cloud-tags">
+    <a href="/lin/tags/Theme-Even/" style="font-size: 16px;">Theme Even</a> <a href="/lin/tags/Hexo%E7%B6%B2%E7%AB%99%E6%9E%B6%E8%A8%AD/" style="font-size: 16px;">Hexo網站架設</a>
   </div>
-
-  
-
-  
-
-</article>
-  
-    
-  <nav class="pagination">  
-      
-      
-  </nav>  
-  
-
-  
-</section>
+</div>
         </div>
           
+  <div class="comments" id="comments">  
+      
+      <div id="utterances-container"></div>  
+      
+  </div>  
+  
 
       </div>
     </main>
@@ -394,6 +299,27 @@
     <div class="back-to-top" id="back-to-top"> <i class="iconfont icon-up"></i> </div>
   </div>
     
+    
+    
+    
+    
+  
+<script>
+  var container = document.getElementById('utterances-container');
+  var script = document.createElement('script');
+  script.src = 'https://utteranc.es/client.js';
+  script.setAttribute('repo', 'angela81103/message');
+  script.setAttribute('issue-term', 'title');
+  script.setAttribute('theme', 'github-light');
+  script.setAttribute('label', 'utterances');
+  script.crossorigin = 'anonymous';
+  script.async = true;
+
+  container.appendChild(script);
+</script>
+  
+    
+  
 
   
 
